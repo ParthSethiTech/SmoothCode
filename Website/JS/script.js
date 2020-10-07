@@ -13,7 +13,7 @@ const showSettingsButton = document.querySelector('.settings-icon');
 const closeSettingsButton = document.querySelector('.settings-close-btn');
 const copyrightYear = document.querySelector('.copyright-year');
 
-copyrightYear.textContent = new Date().getFullYear();
+// copyrightYear.textContent = new Date().getFullYear();
 
 darkThemeToggle.addEventListener('input', () => {
     if (darkThemeToggle.checked) {

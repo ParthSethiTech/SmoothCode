@@ -210,8 +210,13 @@
             transition: all 0.3s;
             letter-spacing: 6px;
             z-index: 10;
-            color: var(--theme-font-color);
         }
+
+            .page-title:link,
+            .page-title:visited {
+                color: var(--theme-font-color);
+                text-decoration: none;
+            }
 
             .settings-icon {
                 position: absolute;
