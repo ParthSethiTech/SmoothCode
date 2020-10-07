@@ -9,7 +9,7 @@
 
 > SmoothCode **supercharges** the user capabilities built into Visual Studio Code. It helps you to **debug faster** at a glance via easy to use shortcuts and commands, **seamlessly navigate and explore** documentations, **gain valuable insights** via powerful sources, and so much more.
 
-Also please [write a review](https://marketplace.visualstudio.com/items?itemName=ParthSethi.smoothcode&ssr=false#review-details 'Write a review') and [star me on GitHub](https://github.com/ParthSethiTech/nCrypt-20 'Star me on GitHub')
+Also please [write a review](https://marketplace.visualstudio.com/items?itemName=ParthSethi.smoothcode&ssr=false#review-details 'Write a review') and [star me on GitHub](https://github.com/ParthSethiTech/SmoothCode 'Star me on GitHub')
 
 # What's new in SmoothCode
 
