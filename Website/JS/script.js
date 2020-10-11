@@ -73,21 +73,21 @@ function correctFeaturesSection(windowWidth) {
                         <ion-icon name="code-slash-outline"></ion-icon>
                     </div>
                     <div class="feature-heading-text">
-                        Search straight through the Extension
+                        Very Resourceful and Effective!
                     </div>
                 </div>
                 <div class="feature-content">
-                    Smoothcode allows you to search directly from your editor. This increases user efficiency as he doesn't have to waste time to open browser and googling and searching for it.
+                    SmoothCode uses a list of popular forums and documentations through which it's very easy to look up your bugs rather than googling and wasting time searching countless resources.
                 </div>
             </div>
             <div class="feature-media">
-                <img src="../Images/background_image_front_page.png" alt="Feature Media" class="feature-media-content">
+                <img src="../Images/gif 2.gif" alt="Feature Media" class="feature-media-content">
             </div>
         `
     } else {
         featureToBeChanged.innerHTML = `
             <div class="feature-media">
-                <img src="../Images/background_image_front_page.png" alt="Feature Media" class="feature-media-content">
+                <img src="../Images/gif 2.gif" alt="Feature Media" class="feature-media-content">
             </div>
             <div class="feature-content-block">
                 <div class="feature-heading">
@@ -95,7 +95,7 @@ function correctFeaturesSection(windowWidth) {
                         <ion-icon name="code-slash-outline"></ion-icon>
                     </div>
                     <div class="feature-heading-text">
-                        Search straight through the Extension
+                        Very Resourceful and Effective!
                     </div>
                 </div>
                 <div class="feature-content">
