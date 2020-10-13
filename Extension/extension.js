@@ -18,17 +18,19 @@ function activate(context) {
     )
 
     function getWebviewContent(link){
-        return `<!DOCTYPE html>
+        return `
+        <!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>SmoothCode</title>
+            <title>Smooth Code</title>
         </head>
         <body>
-            <div>Hello</div>
+            <iframe src=${link} frameborder="0"></iframe>
         </body>
-        </html>`;
+        </html>
+        `
     }
 
 
@@ -39,7 +41,7 @@ function activate(context) {
             return; 
         }
 
-        const url = 'https://stackoverflow.com/search';
+        const url = 'http://stackoverflow.com/search';
         let text = "";
 
         var selection = editor.selection;
@@ -61,7 +63,7 @@ function activate(context) {
         }
 
         let uri = vscode.Uri.parse(url + "?q=" + text);
-        panel.webview.html = getWebviewContent(uri);
+        vscode.commands.executeCommand('vscode.open', uri);
     }); 
     
     var disposable = vscode.commands.registerCommand('smoothcode.devDocs', function () {
@@ -70,7 +72,7 @@ function activate(context) {
             return; 
         }
 
-        const url = 'https://devdocs.io/';
+        const url = 'http://devdocs.io/';
         let text = "";
 
         var selection = editor.selection;
